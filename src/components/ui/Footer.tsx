@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowUp, Sparkles, Heart } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { sound } from '@/utils/soundEngine';
 
 export default function Footer() {

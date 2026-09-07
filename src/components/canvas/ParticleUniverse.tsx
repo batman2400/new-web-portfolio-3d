@@ -49,7 +49,7 @@ export default function ParticleUniverse({ count = 2200, scrollY = 0 }: Particle
     return { positions: pos, colors: col, initialPositions: initPos };
   }, [count]);
 
-  useFrame((state, delta) => {
+  useFrame((state) => {
     if (!pointsRef.current) return;
     const time = state.clock.getElapsedTime();
 

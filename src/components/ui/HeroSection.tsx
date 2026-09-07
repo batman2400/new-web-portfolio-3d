@@ -3,7 +3,7 @@
 import { PORTFOLIO_DATA } from '@/utils/portfolioData';
 import { sound } from '@/utils/soundEngine';
 import { CameraPreset } from '../canvas/CameraRig';
-import { ArrowRight, Terminal, Box, Sparkles, Code2 } from 'lucide-react';
+import { ArrowRight, Terminal, Box } from 'lucide-react';
 
 interface HeroSectionProps {
   onSelectPreset: (preset: CameraPreset) => void;

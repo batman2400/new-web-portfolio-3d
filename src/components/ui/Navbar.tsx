@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { CameraPreset } from '../canvas/CameraRig';
 import { sound } from '@/utils/soundEngine';
-import { Volume2, VolumeX, Eye, Terminal, Sparkles } from 'lucide-react';
-import GithubIcon from './GithubIcon';
+import { Volume2, VolumeX, Eye, Sparkles } from 'lucide-react';
+import { GithubIcon } from './Icons';
 
 interface NavbarProps {
   cameraPreset: CameraPreset;

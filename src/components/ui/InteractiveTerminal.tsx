@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { PORTFOLIO_DATA } from '@/utils/portfolioData';
 import { sound } from '@/utils/soundEngine';
-import { Terminal, CornerDownLeft, Sparkles, X, Minimize2, Maximize2 } from 'lucide-react';
+import { Terminal, CornerDownLeft, Sparkles } from 'lucide-react';
 
 interface TerminalLine {
   type: 'input' | 'output' | 'error' | 'success' | 'system';

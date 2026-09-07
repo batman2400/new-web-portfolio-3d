@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { PORTFOLIO_DATA, Project } from '@/utils/portfolioData';
 import { sound } from '@/utils/soundEngine';
-import { ExternalLink, Sparkles, Layers, Cpu, Code } from 'lucide-react';
-import GithubIcon from './GithubIcon';
+import { ExternalLink, Sparkles, Layers, Cpu } from 'lucide-react';
+import { GithubIcon } from './Icons';
 
 export default function ProjectsSection() {
   const [activeCategory, setActiveCategory] = useState<string>('All');
